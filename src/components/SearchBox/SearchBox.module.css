@@ -1,0 +1,16 @@
+.searchName {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.searchName input {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 6px;
+        background-color: transparent;
+        height: 20px;
+        padding: 4px 8px;
+        max-width: 368px;
+}
