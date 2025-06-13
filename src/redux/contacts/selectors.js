@@ -1,6 +1,6 @@
-export const selectContacts = (state) => state.contacts.items;
+import {selectFilter} from "../filters/selectors";
 
-export const selectFilter = (state) => state.filters.name;
+export const selectContacts = (state) => state.contacts.items;
 
 export const selectFilteredContacts = (state) => {
   const contacts = selectContacts(state);
